@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/user/OneDrive/Documents/lab6/lab6.runs/mb_block_xbar_0_synth_1'
+HD_PWD='C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/lab6.runs/mb_block_xbar_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

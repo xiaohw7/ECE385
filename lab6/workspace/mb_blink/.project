@@ -3,7 +3,7 @@
 	<name>mb_blink</name>
 	<comment>Created by Vitis v2022.2</comment>
 	<projects>
-		<project>mb_intro_top</project>
+		<project>mb_intro_top6</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
