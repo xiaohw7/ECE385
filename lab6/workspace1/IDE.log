@@ -1,0 +1,91 @@
+17:17:27 DEBUG : Logs will be stored at 'C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/IDE.log'.
+17:17:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\user\OneDrive\Documents\ECE385\ECE385\lab6\workspace1\temp_xsdb_launch_script.tcl
+17:17:30 INFO  : Registering command handlers for Vitis TCF services
+17:17:31 INFO  : Platform repository initialization has completed.
+17:17:33 INFO  : XSCT server has started successfully.
+17:17:34 INFO  : Successfully done setting XSCT server connection channel  
+17:17:34 INFO  : plnx-install-location is set to ''
+17:17:34 INFO  : Successfully done query RDI_DATADIR 
+17:17:34 INFO  : Successfully done setting workspace for the tool. 
+17:19:12 INFO  : Result from executing command 'getProjects': mb_intro_top6
+17:19:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:19:13 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:19:14 INFO  : Platform 'mb_intro_top6' is added to custom repositories.
+17:19:18 INFO  : Platform 'mb_intro_top6' is added to custom repositories.
+17:21:07 INFO  : Result from executing command 'getProjects': mb_intro_top6
+17:21:07 INFO  : Result from executing command 'getPlatforms': mb_intro_top6|C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/mb_intro_top6.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:21:08 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink1'...
+17:22:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:22:13 INFO  : Jtag cable 'RealDigital Boo 8874292302C0A' is selected.
+17:22:13 INFO  : 'jtag frequency' command is executed.
+17:22:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302C0A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:22:14 INFO  : Device configured successfully with "C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/_ide/bitstream/mb_intro_top6.bit"
+17:22:14 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa'.
+17:22:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:22:15 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:15 INFO  : System reset is completed.
+17:22:18 INFO  : 'after 3000' command is executed.
+17:22:18 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:18 INFO  : The application 'C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/Debug/mb_blink1.elf' is downloaded to processor 'microblaze_0'.
+17:22:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302C0A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/_ide/bitstream/mb_intro_top6.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/Debug/mb_blink1.elf
+----------------End of Script----------------
+
+17:22:18 INFO  : Context for processor 'microblaze_0' is selected.
+17:22:18 INFO  : 'con' command is executed.
+17:22:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:22:18 INFO  : Disconnected from the channel tcfchan#2.
+17:24:19 INFO  : Result from executing command 'removePlatformRepo': 
+17:24:28 INFO  : Result from executing command 'getProjects': mb_intro_top6
+17:24:28 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:24:29 INFO  : Checking for BSP changes to sync application flags for project 'mb_blink1'...
+17:24:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:42 INFO  : Jtag cable 'RealDigital Boo 8874292302C0A' is selected.
+17:24:42 INFO  : 'jtag frequency' command is executed.
+17:24:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302C0A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:24:43 INFO  : Device configured successfully with "C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/_ide/bitstream/mb_intro_top6.bit"
+17:24:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa'.
+17:24:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:24:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:43 INFO  : System reset is completed.
+17:24:46 INFO  : 'after 3000' command is executed.
+17:24:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:46 INFO  : The application 'C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/Debug/mb_blink1.elf' is downloaded to processor 'microblaze_0'.
+17:24:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302C0A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/_ide/bitstream/mb_intro_top6.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_blink1/Debug/mb_blink1.elf
+----------------End of Script----------------
+
+17:24:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:24:46 INFO  : 'con' command is executed.
+17:24:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:24:46 INFO  : Disconnected from the channel tcfchan#5.
