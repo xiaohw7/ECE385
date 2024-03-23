@@ -2913,3 +2913,265 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-2: Launch
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-03-08 17:24:46.887
 !MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-229
+!SESSION 2024-03-18 15:16:48.265 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_SG
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-03-18 15:17:13.771
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-18 15:17:25.684
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-18 15:17:25.685
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-03-18 15:17:25.685
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:28.864
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:28.865
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:28.875
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:28.879
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.610
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.611
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.611
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.614
+!MESSAGE XSCT Command: [setws C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1], Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.615
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:29.641
+!MESSAGE XSCT command with result: [setws C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1], Result: [null, ]. Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.503
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.804
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.812
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.814
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Tue Mar  5 21:14:18 2024",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.814
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.882
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.882
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.882
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.882
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.882
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.894
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.914
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.914
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.914
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.914
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.914
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-03-18 15:17:33.946
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/workspace1/mb_intro_top6/export/mb_intro_top6/hw/mb_intro_top6.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Tue Mar  5 21:14:18 2024",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main

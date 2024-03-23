@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "mb_block_xbar_0_synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -82,9 +81,11 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/lab6.cache/wt [current_project]
 set_property parent.project_path C:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/lab6.xpr [current_project]
-set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_repo_paths c:/Users/user/Downloads/RD_hdmi_ip2020/hdmi_tx_1.0 [current_project]
+update_ip_catalog
 set_property ip_output_repo c:/Users/user/OneDrive/Documents/ECE385/ECE385/lab6/lab6.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
