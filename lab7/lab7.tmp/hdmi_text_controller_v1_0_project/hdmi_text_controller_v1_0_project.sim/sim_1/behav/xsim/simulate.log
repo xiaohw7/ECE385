@@ -1,6 +1,0 @@
-Time resolution is 1 ps
-Info: Read back of control register: 001f6000
-Time: 192360 ns  Iteration: 0  Process: /hdmi_text_controller_tb/Initial273_906  Scope: hdmi_text_controller_tb.TEST_VECTORS  File: C:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv Line: 299
-Saving bitmap 'lab7_1_sim.bmp'.
-$finish called at time : 15648350 ns : File "C:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv" Line 308
-INFO: xsimkernel Simulation Memory Usage: 80944 KB (Peak: 80944 KB), Simulation CPU Usage: 314609 ms

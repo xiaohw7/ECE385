@@ -1,0 +1,8 @@
+23:28:46 **** Clean-only build of configuration Debug for project hdmi_text_control_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+23:28:47 Build Finished (took 1s.543ms)
+

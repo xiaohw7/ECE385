@@ -1,0 +1,249 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Mar 26 08:54:12 2024
+# Process ID: 39428
+# Current directory: c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/edit_hdmi_text_controller_v1_0.runs/synth_1
+# Command line: vivado.exe -log hdmi_text_controller_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_text_controller_v1_0.tcl
+# Log file: c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/edit_hdmi_text_controller_v1_0.runs/synth_1/hdmi_text_controller_v1_0.vds
+# Journal file: c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/edit_hdmi_text_controller_v1_0.runs/synth_1\vivado.jou
+# Running On: LAPTOP-GPRSK0UV, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 16861 MB
+#-----------------------------------------------------------
+source hdmi_text_controller_v1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1001.176 ; gain = 116.039
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/users/user/onedrive/documents/ece385/ece385/ip_repo/edit_hdmi_text_controller_v1_0.cache/ip 
+Command: synth_design -top hdmi_text_controller_v1_0 -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 46840
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1446.066 ; gain = 415.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0' [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0_AXI' [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:27]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-324] index 4 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 5 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 6 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 7 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 8 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 9 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 10 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 11 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 12 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 13 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 14 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+WARNING: [Synth 8-324] index 15 out of range [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:253]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0_AXI' (0#1) [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:27]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0' (0#1) [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:9]
+WARNING: [Synth 8-3848] Net hdmi_clk_n in module/entity hdmi_text_controller_v1_0 does not have driver. [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:24]
+WARNING: [Synth 8-3848] Net hdmi_clk_p in module/entity hdmi_text_controller_v1_0 does not have driver. [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:25]
+WARNING: [Synth 8-3848] Net hdmi_tx_n in module/entity hdmi_text_controller_v1_0 does not have driver. [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:26]
+WARNING: [Synth 8-3848] Net hdmi_tx_p in module/entity hdmi_text_controller_v1_0 does not have driver. [c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv:27]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_clk_n in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_clk_p in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.484 ; gain = 508.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.484 ; gain = 508.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.484 ; gain = 508.484
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1539.484 ; gain = 508.484
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 20    
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port hdmi_clk_n in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_clk_p in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_n[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hdmi_tx_p[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_awprot[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_awprot[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_awprot[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_arprot[2] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_arprot[1] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_arprot[0] in module hdmi_text_controller_v1_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1722.934 ; gain = 691.934
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1723.812 ; gain = 692.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT2  |     1|
+|4     |LUT3  |     1|
+|5     |LUT4  |    20|
+|6     |LUT6  |    34|
+|7     |FDRE  |   169|
+|8     |FDSE  |     1|
+|9     |IBUF  |    47|
+|10    |OBUF  |    41|
+|11    |OBUFT |     8|
++------+------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+------------------------------+------+
+|      |Instance                             |Module                        |Cells |
++------+-------------------------------------+------------------------------+------+
+|1     |top                                  |                              |   324|
+|2     |  hdmi_text_controller_v1_0_AXI_inst |hdmi_text_controller_v1_0_AXI |   227|
++------+-------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 45 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1724.012 ; gain = 693.012
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1735.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1830.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 2b20affb
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1830.660 ; gain = 804.617
+INFO: [Common 17-1381] The checkpoint 'c:/Users/user/OneDrive/Documents/ECE385/ECE385/ip_repo/edit_hdmi_text_controller_v1_0.runs/synth_1/hdmi_text_controller_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hdmi_text_controller_v1_0_utilization_synth.rpt -pb hdmi_text_controller_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 26 08:54:41 2024...
